@@ -1,0 +1,19 @@
+html {
+    background-color: mediumpurple;
+}
+
+h1 {
+    color: white;
+}
+
+.friend {
+    background-color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    text-transform: lowercase;
+}

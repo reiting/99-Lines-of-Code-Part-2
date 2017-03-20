@@ -14,8 +14,6 @@ function addSong() {
         //attached array of friends to html
         friendNames.innerHTML = (friends[n]);
 
-
-        console.log(friends[n] + ":");
         for (i = 99; i > 0; i--) {
             //create p createElement
             var songLyrics = document.createElement('p');
@@ -23,11 +21,11 @@ function addSong() {
             friendNames.appendChild(songLyrics);
             //append lyrics to p elements
             if (i == 1) {
-                songLyrics.innerHTML = i + " line of code in the file," + i + " line of code; " + friends[n] + " strikes one out, clears it all out, no more lines of code in the file."
+                songLyrics.innerHTML = i + " line of code in the file, " + i + " line of code; " + friends[n] + " strikes one out, clears it all out, no more lines of code in the file."
             } else if (i - 1 == 1) {
-                songLyrics.innerHTML = i + " lines of code in the file," + i + " lines of code; " + friends[n] + " strikes one out, clears it all out, " + [i - 1] + " line of code in the file."
+                songLyrics.innerHTML = i + " lines of code in the file, " + i + " lines of code; " + friends[n] + " strikes one out, clears it all out, " + [i - 1] + " line of code in the file."
             } else {
-                songLyrics.innerHTML = i + " lines of code in the file," + i + " lines of code; " + friends[n] + " strikes one out, clears it all out, " + [i - 1] + " lines of code in the file."
+                songLyrics.innerHTML = i + " lines of code in the file, " + i + " lines of code; " + friends[n] + " strikes one out, clears it all out, " + [i - 1] + " lines of code in the file."
             }
 
         }

@@ -6,14 +6,39 @@ h1 {
     color: white;
 }
 
+body {
+    text-align: center;
+}
+
 .friend {
     background-color: white;
+    margin: 50px;
 }
 
 h3 {
     text-transform: uppercase;
+    text-align: center;
+
 }
 
 p {
     text-transform: lowercase;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: darkblue;
+    color: white;
+}
+
+button:hover {
+    background-color: blueviolet;
 }
